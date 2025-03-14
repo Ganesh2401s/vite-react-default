@@ -16,12 +16,12 @@ $myWidth: 90vw;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px dotted white;
+    // outline: 2px dotted white;
     scrollbar-color: blue black;
 
     // background-color: black;
 
-    
+
 }
 
 // @media  screen and (max-width:767px) {
@@ -47,11 +47,13 @@ $myWidth: 90vw;
 
 body {
     background-color: black;
+    width: $myWidth;
+    margin: auto;
 }
 
 // navbar scss styling starts from here
 #navBar {
-    $myWidth: 90vw;
+    $myWidth: 100%;
     display: flex;
     flex-direction: row;
     gap:min(20rem, 70%);
@@ -110,16 +112,25 @@ body {
     to{--angle:360deg;}
 }
 
+@media screen and (max-width:1000px){
+    .heroSection {
+        flex-flow: column wrap;
+        background-color: rgb(102, 102, 102)!important;
+        outline: 3px dotted red;
+    }
+
+}
+
 .heroSection {
     
 
     // border: 1px solid red;
     width: $myWidth;
-    height: 50vw;
+    height: auto;
     background-color: black ;
     position: relative;
     z-index: 7;
-    margin: 1rem auto 10rem auto;
+    margin: 1rem auto 5rem auto;
     display: flex;
     flex-direction: row;
     // position: relative;
@@ -280,14 +291,15 @@ body {
 // Tech stack starts from here
 
 .careerDetails{
+    // outline: 2px solid white;
     --myPercentage: 0%;
     width: $myWidth;
-    margin: 1rem auto 5rem auto;
+    height: 20rem;
+    margin: 1rem auto 1rem auto;
     position: relative;
     // border: 1px solid red;
     overflow: hidden;
     // background-color: white;
-    height: 60vh;
     // box-shadow: 5px 10px 100px gray inset;
     .techStackHeading {
         color: $myBlue;

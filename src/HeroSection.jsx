@@ -16,7 +16,7 @@ function HeroSection() {
 
             <div className="ownerImage">
                 <div className="imageBox">
-                <img src={profilePicture} width="400px" alt="owner-image" />
+                <img src={profilePicture} width="10rem" alt="owner-image" />
                 </div>
                  
             </div>
