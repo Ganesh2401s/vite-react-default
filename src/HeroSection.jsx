@@ -1,3 +1,5 @@
+import profilePicture from "./assets/rohan2.jpg";
+
 function HeroSection() {
     return (
         <div className="heroSection">
@@ -14,7 +16,7 @@ function HeroSection() {
 
             <div className="ownerImage">
                 <div className="imageBox">
-                <img src="./assets/rohan2.jpg" width="400px" alt="owner-image" />
+                <img src={profilePicture} width="400px" alt="owner-image" />
                 </div>
                  
             </div>

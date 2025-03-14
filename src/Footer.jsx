@@ -1,3 +1,5 @@
+import image from "./assets/rohan2.jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -11,7 +13,7 @@ function Footer () {
             <div className="getInTouch">
                 <div className="imageTile">
                     <div className="profileContainer">
-                        <img src="../src/assets/rohan2.jpg" alt="rohan_image" />
+                        <img src={image} alt="rohan_image" />
                     </div>
                     <div className="ownerName">
                         <h4>Rohan Singh</h4>
