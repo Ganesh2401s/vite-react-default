@@ -112,14 +112,14 @@ body {
     to{--angle:360deg;}
 }
 
-@media screen and (max-width:1000px){
-    .heroSection {
-        flex-flow: column wrap;
-        background-color: rgb(102, 102, 102)!important;
-        outline: 3px dotted red;
-    }
+// @media screen and (max-width:1000px){
+//     .heroSection {
+//         flex-flow: column wrap;
+//         background-color: rgb(102, 102, 102)!important;
+//         outline: 3px dotted red;
+//     }
 
-}
+// }
 
 .heroSection {
     
