@@ -6,7 +6,7 @@ function HeroSection() {
 
             <div className="personalDetails">
                 <p>Hi there,</p>
-                <h1> I&apos;m Rohan Singh</h1>
+                <h1> I&apos;m Rohan Kabadi wala</h1>
                 <h3>Software Engineer</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates officia mollitia dignissimos minus iure omnis laudantium labore cupiditate! Alias dolore quo ad atque animi!</p>
 
